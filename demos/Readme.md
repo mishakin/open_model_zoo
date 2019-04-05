@@ -22,6 +22,7 @@ directory in the Inference Engine installation directory:
  - [Smart Classroom Demo](./smart_classroom_demo/README.md) - Face recognition and action detection demo for classroom environment. *NEW MODELS SHOWCASE, below*.
  - [Super Resolution Demo](./super_resolution_demo/README.md) - Super Resolution demo (the demo supports only images as inputs). It enhances the resolution of the input image.
  - [Text Detection Demo](./text_detection_demo/README.md) - Text Detection demo (the demo supports only images as inputs). It detects multi-oriented scene text on an input image and puts a bounding box around detected area.
+ - [Gaze Estimation Demo](./gaze_estimation_demo/README.md) - Gaze estimation demo. Supports video and camera inputs.  *NEW MODELS SHOWCASE, below*.
 
 *Few demos referenced above have simplified equivalents in Python (`python_demos` subfolder)*.
 
@@ -39,7 +40,7 @@ The table below shows the correlation between models and demos/plugins (_the plu
 |   head-pose-estimation-adas-0001                 | [Interactive Face Detection Demo](./interactive_face_detection_demo/README.md)                                                              | Supported    | Supported    | Supported      | Supported  |
 |   emotions-recognition-retail-0003               | [Interactive Face Detection Demo](./interactive_face_detection_demo/README.md)                                                              | Supported    | Supported    | Supported      | Supported  |
 |   facial-landmarks-35-adas-0001                  | [Interactive Face Detection Demo](./interactive_face_detection_demo/README.md)                                                              | Supported    | Supported    | Supported      |            |
-|   vehicle-license-plate-detection-barrier-0106   | [Security Barrier Camera Demo](./security_barrier_camera_demo/README.md)                                                                    | Supported    | Supported    | Supported      | Supported  |
+|   gaze-estimation-adas-0002                      | [Gaze Estimation Demo](./interactive_face_detection_demo/README.md)                                                                         | Supported    | Supported    | Supported      |            |
 |   vehicle-attributes-recognition-barrier-0039    | [Security Barrier Camera Demo](./security_barrier_camera_demo/README.md)                                                                    | Supported    | Supported    | Supported      | Supported  |
 |   license-plate-recognition-barrier-0001         | [Security Barrier Camera Demo](./security_barrier_camera_demo/README.md)                                                                    | Supported    | Supported    | Supported      | Supported  |
 |   person-detection-retail-0001                   | [Object Detection Demo](./object_detection_demo/README.md)                                                                                  | Supported    | Supported    | Supported      |            |
